@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<script>
+    $(function() {
+            $("#b1").click(function(){
+                var num1= $('#num1').val();
+                var num2= $('#num2').val();
+                console.log(num1, num2);
+                var elem = parseInt(num1) +parseInt(num2);
+                alert(elem);
+               
+            })
+            $("#b2").click(function(){
+                var num1= $('#num1').val();
+                var num2= $('#num2').val();
+                console.log(num1, num2);
+                var elem = parseInt(num1) - parseInt(num2);
+                alert(elem);
+               
+            })
+            
+        });
+</script>
+
+<body>
+    <label>Enter num 1 : </label> 
+    <input id="num1" type="number"/>
+    <label>Enter num 2 : </label> 
+    <input id="num2" type="number"/>
+    <button id="b1" >Add</button>
+    <button id="b2">Sub</button>
+</body>
+</html>
