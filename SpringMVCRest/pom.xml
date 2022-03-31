@@ -7,7 +7,7 @@
   <!-- Added Ones For the Rest layer -->
   
   <properties>
-  	<spring-version>5.1.13.RELEASE</spring-version>
+  	<spring-version>5.3.18</spring-version>
   	<hibernate-version>5.4.5.Final</hibernate-version>
   	<jackson-version>2.10.0</jackson-version>
   </properties>
